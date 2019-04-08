@@ -1,0 +1,19 @@
+{
+    "name": "coolnodeapp",
+    "version": "1.0.0",
+    "description": "node app ",
+    "main": "app.js",
+    "scripts": {
+    "start": "node app.js"
+    },
+    "repository": {
+    "type": "git",
+    "url": ""
+    },
+    "author": "Lori Lewis",
+    "license": "ISC",
+    "bugs": {
+    "url": "https://medium.freecodecamp.org/how-to-deploy-a-nodejs-app-to-heroku-from-github-without-installing-heroku-on-your-machine-433bec770efe"
+    },
+    "homepage": "https://github.com/lorilewis"
+    }
