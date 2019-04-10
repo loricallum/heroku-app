@@ -1,19 +1,28 @@
 {
-    "name": "coolnodeapp",
-    "version": "1.0.0",
-    "description": "node app ",
-    "main": "app.js",
-    "scripts": {
-    "start": "node app.js"
-    },
-    "repository": {
+  "name": "heroku-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js"
+    
+  },
+  "repository": {
     "type": "git",
-    "url": ""
-    },
-    "author": "Lori Lewis",
-    "license": "ISC",
-    "bugs": {
-    "url": "https://medium.freecodecamp.org/how-to-deploy-a-nodejs-app-to-heroku-from-github-without-installing-heroku-on-your-machine-433bec770efe"
-    },
-    "homepage": "https://github.com/lorilewis"
-    }
+    "url": "git+https://github.com/lorilewis/heroku-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lorilewis/heroku-app/issues"
+  },
+  "homepage": "https://github.com/lorilewis/heroku-app#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
